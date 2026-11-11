@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <a href="../03_index_pocetna/index.html">Vrati se</a>
+    <br><br>
+    <p>Ako želiš saznati sve o tablicama, otvori <a href="../04_vjezba/vazno_o_tablicama.pdf">pdf</a></p>
+
+    <table border="1" width="100%" cellpadding="10px">
+        <tr>
+            <th colspan="5">Dani u tjednu</th>
+        </tr>
+        <tr align="right">
+            <td align="center" colspan="2">Ponedjeljak</td>
+            
+            <td rowspan="2">Srijeda</td>
+            <td>Četvrtak</td>
+            <td>Petak</td>
+        </tr>
+        <tr>
+            <td>Ponedjeljak</td>
+            <td>Utorak</td>
+            
+            <td>Četvrtak</td>
+            <td>Petak</td>
+        </tr>
+    </table>
+
+    <br><br><br><br>
+
+    <table border="1">
+        <tr>
+            <th colspan="5">naslov tablice</th>
+        </tr>
+
+        <tr>
+            <td><br>&nbsp;</td>
+            <td>1.<br>stupac</td>
+            <td>2.<br>stupac</td>
+            <td>3.<br>stupac</td>
+            <td>4.<br>stupac</td>
+        </tr>
+
+        <tr>
+            <td>1. red</td>
+            <td rowspan="3" bgcolor="orange">&nbsp;</td>
+            <td rowspan="2" bgcolor="green">&nbsp;</td>
+            <td bgcolor="white">&nbsp;</td>
+            <td bgcolor="red">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>2. red</td>
+            <td colspan="2" bgcolor="yellow">&nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td>3. red</td>
+            <td colspan="3" bgcolor="purple">&nbsp;</td>
+        </tr>
+
+        <caption style="caption-side: bottom;">ovo je opis tablice</caption>
+    </table>
+
+    <p>
+        Umetanje iframe elemenata
+    </p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.6214648755126!2d17.219391376281376!3d45.59815382107653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476798ae2947f8ab%3A0x268fb3b9ad40fbed!2sUl.%20Ivana%20Gunduli%C4%87a%2014%2C%2043500%2C%20Daruvar!5e0!3m2!1sen!2shr!4v1791975595184!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</body>
+</html>
